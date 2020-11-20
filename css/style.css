@@ -1,0 +1,259 @@
+   * {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+   }
+   
+   body {
+       width: 100%;
+       height: 100vh;
+       background-color: black;
+   }
+   
+   body,
+   html {
+       scroll-behavior: smooth;
+   }
+   /* <!-- About Me -section --> */
+   
+   .sitnav {
+       width: 250px;
+       height: 100vh;
+       background-color: ;
+       float: left;
+   }
+   
+   .logo {
+       color: #3109e6;
+       font-family: sans-serif;
+       text-align: center;
+       text-transform: uppercase;
+       padding: 5px;
+       margin: 20px 5px 110px 20px;
+       border: 1px solid #3109e6;
+   }
+   
+   .nav {
+       font-size: 20px;
+       padding-left: 50px;
+       line-height: 50px;
+   }
+   
+   .nav::before {
+       position: absolute;
+       content: "";
+       width: 2px;
+       height: 260px;
+       background-color: blue;
+       left: 220px;
+   }
+   
+   .nav li {
+       list-style: none;
+   }
+   
+   .nav li a:hover {
+       color: blue;
+   }
+   
+   .nav li a {
+       text-transform: uppercase;
+       font-family: sans-serif;
+       color: white;
+       text-decoration: none;
+   }
+   
+   .login {
+       width: 150px;
+       height: 30px;
+       color: blue;
+       font-size: 20px;
+       padding: 70px 30px;
+   }
+   
+   .profile {
+       height: 100vh;
+       float: left;
+       position: relative;
+   }
+   
+   .profile_img {
+       position: absolute;
+       top: 140px;
+   }
+   
+   .profile_img img {
+       max-width: 360px;
+       height: 300px;
+       margin-bottom: 100px;
+   }
+   
+   .dettls {
+       width: 600px;
+       height: 100vh;
+       float: right;
+       align-items: center;
+       padding: 160px 10px;
+   }
+   
+   .dettls li {
+       list-style: none;
+       color: white;
+       font-size: 20px;
+       ;
+   }
+   
+   li.about_me {
+       font-size: 30px;
+       padding: 20px 0;
+       position: relative;
+   }
+   
+   li.about_me::before {
+       position: absolute;
+       content: "";
+       width: 140px;
+       height: 2px;
+       background-color: #3109e6;
+       bottom: 15px;
+   }
+   
+   .btnme a {
+       text-decoration: none;
+       color: white;
+   }
+   
+   .btnme {
+       width: 140px;
+       height: 30px;
+       border: 2px solid blue;
+       text-align: center;
+       border-radius: 12px;
+       padding: 5px;
+       background-color: transparent;
+       cursor: pointer;
+       margin-top: 20px;
+   }
+   
+   .btnme:hover {
+       color: white;
+       background-color: blue;
+       ;
+   }
+   /* <!-- About Me -section --> */
+   
+   .border {
+       float: right;
+       width: 970px;
+       height: 530px;
+       margin: 15px;
+       /* border: 2px solid blue; */
+       padding: 20px;
+   }
+   
+   h2 {
+       color: blue;
+       text-align: center;
+       margin-bottom: 5px;
+       ;
+   }
+   
+   p {
+       color: white;
+       padding: 10px;
+       font-size: 18px;
+   }
+   
+   .web_design,
+   .web_dev,
+   .wordpass,
+   .grapix {
+       display: block;
+       width: 23.5%;
+       height: 460px;
+       float: left;
+       border: 1px solid blue;
+       margin-right: 13px;
+   }
+   
+   .web_design img,
+   .web_dev img,
+   .wordpass img,
+   .grapix img {
+       width: 100%;
+       height: 200px;
+   }
+   /* .nav li :focus {
+       background-color: red;
+   } */
+   /* project-section */
+   
+   .project img {
+       width: 48%;
+       height: 400px;
+       background-position: center;
+       margin-top: 30px;
+       float: left;
+       margin-right: 10px;
+   }
+   /* project-section */
+   /* contact -section */
+   
+   .con {
+       color: white;
+   }
+   
+   .contact_one,
+   .contact_two,
+   .contact_three {
+       float: left;
+       margin: 10px 90px;
+       text-align: center;
+       align-items: center;
+   }
+   /* contact -section */
+   
+   .input {
+       color: white;
+       margin: 130px 70px;
+   }
+   
+   input {
+       width: 300px;
+       height: 40px;
+       outline: none;
+       border: 2px solid blue;
+       border-radius: 12px;
+       padding: 5px;
+       color: blue;
+       background-color: transparent;
+   }
+   
+   textarea {
+       width: 500px;
+       height: 80px;
+       outline: none;
+       border: 2px solid blue;
+       border-radius: 12px;
+       padding: 10px;
+       color: blue;
+       background-color: transparent;
+   }
+   
+   .submitbtn {
+       width: 100px;
+       height: 30px;
+       border: 2px solid blue;
+       text-align: center;
+       border-radius: 12px;
+       padding: 5px;
+       color: blue;
+       background-color: transparent;
+       cursor: pointer;
+   }
+   
+   .submitbtn:hover {
+       color: white;
+       background-color: blue;
+       ;
+   }
